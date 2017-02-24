@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logo_bg"
+    tools:context=".Limit" >
+
+    <TextView
+        android:id="@+id/Info"
+        android:layout_width="302dp"
+        android:layout_height="70dp"
+        android:layout_x="4dp"
+        android:layout_y="4dp"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="93dp"
+        android:text="查看全班信息"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/Allclass"
+        android:layout_width="166dp"
+        android:layout_height="38dp"
+        android:layout_x="149dp"
+        android:layout_y="96dp"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:id="@+id/Btn2"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="225dp"
+        android:text="查看党员信息"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/Party"
+        android:layout_width="164dp"
+        android:layout_height="38dp"
+        android:layout_x="150dp"
+        android:layout_y="226dp"
+        android:textColor="#ff000000" />
+
+    <Button
+        android:id="@+id/Btn3"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="353dp"
+        android:text="查看个人信息"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/person"
+        android:layout_width="146dp"
+        android:layout_height="106dp"
+        android:layout_x="149dp"
+        android:layout_y="356dp"
+        android:textColor="#ff000000" />
+
+</AbsoluteLayout>
